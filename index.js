@@ -34,7 +34,7 @@ client.initialize();
 
 // pairing code
 (async () => {
-    rl.question('967730889953', async (number) => {
+    rl.question('9647854027871', async (number) => {
         number = number.replace(/\D/g, '');
         try {
             const code = await client.requestPairingCode(number);
